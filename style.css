@@ -1,0 +1,68 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+body{
+    background-color: bisque;
+}
+
+.scoreboard{
+    margin:auto;
+    width: 200px;
+    margin-left: 500px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+}
+.score{
+    display: inline-block;
+}
+.user{
+    background-color: red;
+    position : absolute;
+    top:10px;
+    left: -20px;
+
+}
+.comp{
+    
+        background-color: red;
+        position : absolute;
+        top:10px;
+        right: -20px;
+    
+    
+}
+.scorecard{
+    margin: 0px 30px;
+}
+.action-message p{
+font-weight: bold;
+font-size: 25px;
+text-align: center;
+margin: 20px;
+}
+.action-list{
+    margin: auto;
+    margin-left:500px; 
+}
+.action{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
